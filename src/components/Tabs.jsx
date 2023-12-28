@@ -1,9 +1,8 @@
-import "../index.css";
-
-function Tab({ buttons, children }) {
+function Tab({ buttons, children, ButtonsContainer }) {
+  // const ButtonsContainer = buttonsContainer;
   return (
     <>
-      <main>{buttons}</main>
+      <ButtonsContainer>{buttons}</ButtonsContainer>
       {children}
     </>
   );
