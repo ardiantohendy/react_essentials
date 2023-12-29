@@ -14,7 +14,6 @@ function ExampleSection() {
   return (
     <Section title="Examples" id="examples">
       <Tab
-        ButtonsContainer="menu"
         buttons={
           <>
             <TabButton isSelected={selectedTopic === "components"} onClick={() => handleSelect("components")}>
